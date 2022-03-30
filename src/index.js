@@ -15,6 +15,6 @@ function addElem (elem, text='Напиши что-нибудь', newClass){
     newElem.innerHTML = text;
     newElem.classList.add(newClass);
     document.body.append(newElem);
-};
+}
 addElem('h1', 'Заголовок', 'ty');
 addElem('p');
